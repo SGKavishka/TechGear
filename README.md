@@ -28,7 +28,6 @@ TechGear is a PHP and MySQL e-commerce web application built for XAMPP. It inclu
 - A browser such as Chrome, Edge, Firefox, or Safari
 
 ## Project Structure
-
 TechGear/
 ├── app/
 │   ├── core/              # Startup and database connection files
