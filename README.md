@@ -13,12 +13,6 @@ TechGear is a PHP/MySQL project for XAMPP. The application now uses a cleaner PH
 5. Open:
    `http://localhost/TechGear/index.php`
 
-## Demo Logins
-
-- Admin portal: `http://localhost/TechGear/admin-login.php`
-- Admin: `admin@techgear.local` / `admin123`
-- Customer: `user@techgear.local` / `user12345`
-
 ## Main Features
 
 - Public `.php` pages contain the page UI and PHP backend logic together
