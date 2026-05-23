@@ -1,0 +1,44 @@
+.document-container {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(16, 24, 32, 0.88);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.doc-section {
+    margin-bottom: 2.25rem;
+}
+
+.doc-section:last-child {
+    margin-bottom: 0;
+}
+
+.doc-section h2 {
+    padding-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1.45rem;
+}
+
+.doc-section p,
+.doc-section li {
+    color: var(--text-secondary);
+}
+
+.doc-section ul {
+    list-style: disc;
+    padding-left: 1.4rem;
+}
+
+.doc-section li {
+    margin-bottom: 0.65rem;
+}
+
+@media (max-width: 768px) {
+    .document-container {
+        padding: 1.25rem;
+    }
+}

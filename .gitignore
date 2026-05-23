@@ -1,0 +1,9 @@
+.DS_Store
+Thumbs.db
+
+# Local environment and generated files
+.env
+storage/logs/*
+storage/cache/*
+!storage/logs/.gitkeep
+!storage/cache/.gitkeep
